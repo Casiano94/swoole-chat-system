@@ -1,0 +1,13 @@
+{
+    "name": "orlando/swoole-chat-system",
+    "description": "A real-time chat system using OpenSwoole and PHP.",
+    "require": {
+        "openswoole/openswoole-src": "^4.10",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SwooleChat\\": "src/"
+        }
+    }
+}
